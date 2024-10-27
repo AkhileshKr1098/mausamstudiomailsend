@@ -15,7 +15,7 @@ export default async function handler(req, res) {
 
             const mailOptions = {
                 from: process.env.GMAIL_USER,  // Use environment variable
-                to: process.env.RECIVED_USER,      // Send to the same user or another
+                to: 'mausamstudio78@gmail.com',
                 subject: 'New Inquiry for Mausam Studio',
                 html: `<table style="padding: 10px;">
                         <tr><th style="text-align: start;">Name:</th><td>${name}</td></tr>
