@@ -22,7 +22,7 @@ export default async function handler(req, res) {
                         <tr><th style="text-align: start;">Mobile:</th><td>${phone}</td></tr>
                         <tr><th style="text-align: start;">Email:</th><td>${email}</td></tr>
                         <tr><th style="text-align: start;">Subject:</th><td>${subject}</td></tr>
-                        <tr><th style="text-align: start;">Message:</th><td>${message.replace(/\n/g, '<br>')}</td></tr>
+                        <tr><th style="text-align: start;">Message:</th><td>${message}</td></tr>
                     </table>`
             };
 
